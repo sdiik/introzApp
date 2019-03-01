@@ -7,11 +7,11 @@ UI in this application:
 - Login
 - registration
 - Forgot the password
-- Bottom Navigation:
-  -> Home (latest news list)
-  -> Friends (friend list list that you can cancel)
-  -> Notification (UI notification which usually comes from firebase)
-  -> Settings (consisting of your data, and profile edit feature, about and bottom logout).
+- Bottom Navigation :
+  - Home (latest news list)
+  - Friends (friend list list that you can cancel)
+  - Notification (UI notification which usually comes from firebase)
+  - Settings (consisting of your data, and profile edit feature, about and bottom logout).
 
 This UI is full of flaws
 May be useful
