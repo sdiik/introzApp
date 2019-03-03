@@ -1,7 +1,14 @@
-/* 
-  simple_post.json
-  introzApp
-
-  Created by ahmad shiddiq on 12/12/18.
-  Copyright © 2018 ahmad shiddiq. All rights reserved.
-*/
+{
+    "post":
+        {
+            "name": "Mark Zuckerberg",
+            "location": "SanFrancisco",
+            "name_imageprofile": "markzukerberg",
+            "statusText": "By giving people the power to share, we're making the world more transparent.",
+            "name_imageStatus": "satu",
+            "numLikes": "150",
+            "numComments": "300",
+            "information": "Some infomation text"
+            "date": "17 Agust 18"
+        }
+}
