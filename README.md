@@ -15,17 +15,17 @@ UI in this application:
   
   Splash Screen :
   
- ![alt text](https://github.com/sdik007/introzApp/blob/master/introzApp/Assets.xcassets/xxsplash.imageset/xxsplash.png)
+ ![alt text](https://github.com/sdik007/introzApp/blob/master/introzApp/Assets.xcassets/coro1.imageset/coro1.png)
   
   
   Home :
   
- ![alt text](https://github.com/sdik007/introzApp/blob/master/introzApp/Assets.xcassets/xxhome.imageset/homes.png)
+ ![alt text](https://github.com/sdik007/introzApp/blob/master/introzApp/Assets.xcassets/coro2.imageset/coro2.png)
        
        
  Setting :
  
- ![alt text](https://github.com/sdik007/introzApp/blob/master/introzApp/Assets.xcassets/xxSetting.imageset/xxSetting.png)
+ ![alt text](https://github.com/sdik007/introzApp/blob/master/introzApp/Assets.xcassets/coro3.imageset/coro3.png)
  
   
 This UI is full of flaws and maybe all of you can help improve.
