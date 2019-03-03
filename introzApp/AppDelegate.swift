@@ -15,7 +15,50 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        window = UIWindow()
+        window?.makeKeyAndVisible()
+        
+//        let tableViewController = TableViewController(style: .grouped)
+//        let navController = UINavigationController(rootViewController: tableViewController)
+//        window?.rootViewController = navController
+        
+  
+        let layout = UICollectionViewFlowLayout()
+        layout.scrollDirection = .horizontal
+        let swipingController = SwippingController(collectionViewLayout: layout)
+        window?.rootViewController = swipingController
+
+//       window?.rootViewController =  DetailNews()
+        
+        //window =  UIWindow()
+        //window?.makeKeyAndVisible()
+
+//        let feedController = FeedController(collectionViewLayout: UICollectionViewFlowLayout())
+//        let navigatiorController = UINavigationController(rootViewController: feedController)
+//        window?.rootViewController = navigatiorController
+        
+        //window?.rootViewController =  CustomTabBarController()
+        
+        //var navigationBarAppearace = UINavigationBar.appearance()
+        //navigationBarAppearace.backgroundColor = UIColor(red: 51/255, green: 90/255, blue: 149/255, alpha: 1.0)
+        //navigationBarAppearace.barTintColor = UIColor.white
+        
+        //To change Navigation Bar Background Color
+        //UINavigationBar.appearance().barTintColor = UIColor(red: 51/255, green: 90/255, blue: 149/255, alpha: 1.0)
+        //To change Back button title & icon color
+        //UINavigationBar.appearance().tintColor = UIColor.white
+        //To change Navigation Bar Title Color
+        //UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
+        //UITabBar.appearance().tintColor = UIColor.init(red: 70/255, green: 146/255, blue: 250/255, alpha: 1)
+        
+        // UINavigationBar.appearance().backgroundColor = UIColor.red
+        // UIBarButtonItem.appearance().setTitleTextAttributes(NSAttributedString.Key.foregroundColor: UIColor.white, for: .normal)
+        // UINavigationBar.appearance().tintColor = .magenta
+        //application.statusBarStyle = .lightContent
+        
+        UIApplication.shared.statusBarStyle = UIStatusBarStyle.lightContent
+        
         return true
     }
 
@@ -41,6 +84,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-
 }
-
