@@ -13,7 +13,7 @@ UI in this application:
   - Notification (UI notification which usually comes from firebase)
   - Settings (consisting of your data, and profile edit feature, about and bottom logout).
   
-![alt text](https://github.com/sdik007/introzApp/blob/master/introzApp/Assets.xcassets/xxhome.imageset/homes.png)
+       ![alt text](https://github.com/sdik007/introzApp/blob/master/introzApp/Assets.xcassets/xxhome.imageset/homes.png)
   
 This UI is full of flaws and maybe all of you can help improve.
 May be useful
